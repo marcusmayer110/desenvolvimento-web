@@ -1,65 +1,138 @@
-# Estudos de Desenvolvimento Web 🚀
+# 📚 Estudos em Desenvolvimento Web – Full Stack
 
-Este repositório foi criado para registrar meus **estudos práticos em desenvolvimento web**, acompanhando minha evolução ao longo do aprendizado.
+Este repositório foi criado para **registrar minha evolução prática e teórica em Desenvolvimento Web Full Stack**, acompanhando um curso completo e atividades complementares.
 
-Aqui eu organizo códigos, exemplos, testes e pequenos projetos feitos durante cursos, aulas e estudos pessoais.
-
----
-
-## 📚 Conteúdos estudados
-
-Os estudos serão organizados por temas, conforme vou avançando:
-
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript (ES6+)
-- PHP
-- Programação Orientada a Objetos
-- MySQL
-- MVC
-- APIs
-- Outros conteúdos relacionados a desenvolvimento web
+O objetivo não é apenas assistir às aulas, mas **praticar, testar, errar, corrigir e consolidar conhecimentos**, criando projetos e exercícios reais ao longo do aprendizado.
 
 ---
 
-## 🗂 Organização do repositório
+## 🎯 Objetivo do Repositório
 
-Cada pasta representa um tema ou módulo de estudo.  
-Dentro delas podem existir:
+- Consolidar conhecimentos em desenvolvimento web (front-end, back-end e banco de dados)
+- Praticar tecnologias modernas usadas no mercado
+- Criar projetos para uso acadêmico (faculdade) e pessoais
+- Manter um histórico de aprendizado organizado no GitHub
+- Evoluir gradualmente boas práticas de código e versionamento
 
-- Exemplos feitos em aula
-- Exercícios práticos
-- Testes de código
-- Pequenos projetos
+---
+
+## 🛠️ Tecnologias Estudadas
+
+### 🌐 Front-end
+- **HTML5**
+  - Estrutura semântica (header, nav, section, article, footer, etc.)
+  - Formulários, tabelas, listas, links e imagens
+- **CSS3**
+  - CSS intermediário e avançado
+  - Box model, posicionamento, layouts líquidos e fixos
+  - Flexbox
+  - Animações, transições, sombras, degradês e fontes customizadas
+- **Bootstrap 4**
+  - Layout responsivo
+  - Grids, cards, formulários, botões, tabelas e componentes visuais
+- **JavaScript**
+  - Variáveis, arrays, funções, condicionais e loops
+  - DOM, eventos, BOM
+- **ECMAScript (ES6 / ES7)**
+  - let / const
+  - Arrow functions
+  - Orientação a Objetos
+  - Funções de array
+  - Web Storage
+- **jQuery**
+  - Manipulação do DOM
+  - Eventos
+  - AJAX
+  - Animações
+
+---
+
+### 🖥️ Back-end
+- **PHP 7**
+  - Programação procedural e orientada a objetos
+  - Abstração, herança, polimorfismo e interfaces
+- **PHP com PDO**
+  - Conexão com MySQL
+  - CRUD
+  - Prevenção contra SQL Injection
+- **Arquitetura MVC com PHP**
+  - Controllers, Models e Views
+  - Rotas
+  - Reutilização de layouts
+  - Composer
+- **APIs REST**
+  - Criação de APIs com framework Slim
+  - Rotas, middlewares e respostas HTTP
+
+---
+
+### 🗄️ Banco de Dados
+- **MySQL**
+  - SELECT, INSERT, UPDATE, DELETE
+  - Filtros e operadores lógicos
+  - Relacionamentos
+  - JOINs (INNER, LEFT, RIGHT)
+
+---
+
+### 🔄 Comunicação Assíncrona
+- **AJAX**
+  - XMLHttpRequest
+  - Requisições síncronas e assíncronas
+  - JSON e XML
+
+---
+
+### 📱 Mobile
+- **IONIC**
+  - Criação de aplicações mobile
+  - Integração com aplicações Web
+  - Angular, componentes, navegação e data binding
+
+---
+
+### 🎨 Pré-processador CSS
+- **SASS**
+  - Variáveis
+  - Mixins
+  - Herança
+  - Estruturas de repetição e controle
+
+---
+
+### 🌍 Publicação e CMS
+- **Hospedagem e Servidor**
+  - DNS
+  - FTP
+  - cPanel
+  - Configuração de PHP e MySQL
+- **WordPress**
+  - Instalação
+  - Temas
+  - Plugins
+  - Elementor
+  - Gerenciamento de usuários e conteúdo
+
+---
+
+## 🧪 Projetos Desenvolvidos
 
 
 ---
 
+## 📌 Observações
 
-## 🎯 Objetivo
-
-- Consolidar conhecimentos em desenvolvimento web
-- Praticar a criação de aplicações do front-end ao back-end
-- Utilizar este repositório como apoio para projetos acadêmicos
-- Acompanhar minha evolução ao longo do tempo
+- Este repositório está em **constante evolução**
+- A organização dos arquivos pode mudar conforme novos conceitos são aprendidos
+- Cada pasta representa um módulo, tecnologia ou projeto específico
 
 ---
 
-## 🛠 Tecnologias utilizadas
-
-- HTML5  
-- CSS3  
-- JavaScript  
-- PHP  
-- MySQL  
-- Bootstrap  
-
-*(Outras tecnologias podem ser adicionadas conforme os estudos avançam)*
+## 🚀 Status do Aprendizado
+📖 Em andamento
 
 ---
 
-## 📌 Observação
-
-Este repositório tem fins **educacionais**, focado em aprendizado contínuo e prática.
-
+## 👨‍💻 Autor
+Marcus Mayer  
+Estudante de Sistemas de informação focado nesse repositorio em Desenvolvimento Web
