@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>Uso de Tabelas</h1>
+    <hr>
+    <!--table - tabela  border - define a borda da tabela
+    tr - 'table row ou linhas da tabela'
+    td - table data ou dados da tabela
+    th - table header ou cabeçalho - fica meio em negrito para diferenciação e centraliza tb 
+    usar mais de um td na mesma tr define as colunas da tabela-->
+
+    <table border="4" width="100%">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Marcus</td>
+            <td>(31)99999-9999</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cleide</td>
+            <td>(31)99999-9999</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan=2">Cupom -10 R$</td>
+        </tr>
+        <tr>
+            <td colspan=2">Cupom -10 R$</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">R$ 3.025,98</td>
+        </tr>
+    </table>
+
+    <!--width pode ser aplicado em tables -- se aplicado porcentagem o tamanho ocupa a % da tela disponivel!!
+    Pode ser adicionado img ou links nas table datas
+    colspan - mescla celulas da coluna; col -> coluna e span-> extensão rowspan-> extensão da linha-->
+
+
+</body>
+
+</html>
