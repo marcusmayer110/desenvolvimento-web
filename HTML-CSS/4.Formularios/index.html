@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h2>Formulario de Login</h2>
+    <!--formulario definido por form
+    input para receber texto do usuario
+    input text->recebe texto normal 
+    input password-> recebe senhas e nao exibe caracter na tela
+    input button -> define botão clicavel | value define o texto no  button
+    input submit -> ao clicar "envia" o formulario
+    -->
+    <form>
+        Login:<br>
+        <input type="text" name="Login"><br>
+        Senha:<br>
+        <input type="password" name="Senha"><br>
+        <input type="button" value="Logar">
+    </form>
+
+    <!--input tipo text e radio!-->
+    <h2>Cadastre-se</h2>
+    <form>
+        Login:<br>
+        <input type="text" name="Login"><br><br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="M"> Marculino <br>
+        <input type="radio" name="sexo" value="F"> Feminino <br><br>
+
+        <!--checkbox!!-->
+        <h2>interesses</h2>
+        <input type="checkbox" name="interesses">Futebol<br>
+        <input type="checkbox" name="interesses">Cursos<br>
+        <input type="checkbox" name="interesses">Moda<br>
+
+        <!--select-->
+        <h2>Estado</h2>
+        <select name="estado" id="">
+            <option value="null">--</option>
+            <option value="SP">SP</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+            <option value="AM">AM</option>
+            <option value="SC">SC</option>
+            <option value="PE">PE</option>
+        </select>
+
+        <h2>observações</h2><br>
+
+        <textarea name="observações" id=""></textarea><br>
+
+        <input type="submit" value="cadastrar">
+    </form>
+
+    <!--
+    *o input radio é uma especie de opção pro usuario marcar, ele permite selecionar a bolinha. se houver mais de uma opçao 'radio' com o mesmo 'name' o input só permite marcação de 1 opção por vez, desmarcando a outra opção se estiver marcada
+
+    *o value no radio recebe a opção do usuario e guarda esse valor pra mais pra frente ser tratado por JS
+
+    * O checkbox permite a marcação de mais de uma caixinha de seleção
+
+    *O select cria uma caixinha de opções pre-definidas pro usuario escolher-->
+
+</body>
+
+</html>
