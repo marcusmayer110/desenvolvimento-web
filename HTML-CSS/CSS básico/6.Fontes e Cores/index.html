@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes e Cores</title>
+    <style>
+        .formatação{
+            color: green;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tamanho{
+            /*podem ser aplicadas unidades diferentes pra medidas, seja px, %, pt -> pontos, em -> é um tamanho baseado no tamanho do elemento pai*/
+            font-size: 1em
+            /*no em o tamanho é baseado no tamanho de onde o elemento pertence onde 1 em equivale a propria medida do pai, outras variações seriam multiplicação ou divisao dessa valor pai
+            exemplo: 2em é duas vezes o tamanho do pai
+            0.5em é metade do tamanho do elemento pai*/
+        }
+        div{
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="formatação">Conteúdo</p>
+    <hr>
+    <div class="">
+        <p class="tamanho">texto</p>
+        <p>testes</p>
+    </div>
+</body>
+
+</html>
